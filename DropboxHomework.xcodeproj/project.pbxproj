@@ -18,6 +18,7 @@
 		978353521BAB97E600EF93AF /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978353511BAB97E600EF93AF /* SignInRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		978353541BAB983600EF93AF /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978353531BAB983600EF93AF /* CreateAccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		978353561BAB984500EF93AF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978353551BAB984500EF93AF /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		978353581BACC77A00EF93AF /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978353571BACC77A00EF93AF /* TermsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		978353511BAB97E600EF93AF /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 		978353531BAB983600EF93AF /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		978353551BAB984500EF93AF /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		978353571BACC77A00EF93AF /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		978353501BAB979C00EF93AF /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				978353571BACC77A00EF93AF /* TermsViewController.swift */,
 				978353511BAB97E600EF93AF /* SignInRootViewController.swift */,
 				978353551BAB984500EF93AF /* SignInViewController.swift */,
 				9783534E1BAB979100EF93AF /* CreateAccountRootViewController.swift */,
@@ -284,6 +287,7 @@
 				9783534F1BAB979100EF93AF /* CreateAccountRootViewController.swift in Sources */,
 				978353231BAB8CAC00EF93AF /* ViewController.swift in Sources */,
 				978353211BAB8CAC00EF93AF /* AppDelegate.swift in Sources */,
+				978353581BACC77A00EF93AF /* TermsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,6 +19,7 @@ class CreateAccountViewController: UIViewController {
     @IBAction func welcomeClick(sender: AnyObject) {
         navigationController!.popViewControllerAnimated(true)
     }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

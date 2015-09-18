@@ -1,14 +1,14 @@
 //
-//  SignInViewController.swift
+//  TermsViewController.swift
 //  DropboxHomework
 //
-//  Created by Cameron Norgate on 9/17/15.
+//  Created by Cameron Norgate on 9/18/15.
 //  Copyright © 2015 Cameron Norgate. All rights reserved.
 //
 
 import UIKit
 
-class SignInViewController: UIViewController {
+class TermsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,9 +16,11 @@ class SignInViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func welcomeClick(sender: AnyObject) {
+    
+    @IBAction func doneClick(sender: AnyObject) {
         navigationController!.popViewControllerAnimated(true)
     }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
