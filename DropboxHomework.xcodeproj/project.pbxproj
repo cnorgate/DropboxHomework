@@ -19,6 +19,7 @@
 		978353541BAB983600EF93AF /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978353531BAB983600EF93AF /* CreateAccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		978353561BAB984500EF93AF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978353551BAB984500EF93AF /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		978353581BACC77A00EF93AF /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978353571BACC77A00EF93AF /* TermsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9783535A1BACCBD200EF93AF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978353591BACCBD200EF93AF /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		978353531BAB983600EF93AF /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		978353551BAB984500EF93AF /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		978353571BACC77A00EF93AF /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		978353591BACCBD200EF93AF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				978353551BAB984500EF93AF /* SignInViewController.swift */,
 				9783534E1BAB979100EF93AF /* CreateAccountRootViewController.swift */,
 				978353531BAB983600EF93AF /* CreateAccountViewController.swift */,
+				978353591BACCBD200EF93AF /* SettingsViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				978353231BAB8CAC00EF93AF /* ViewController.swift in Sources */,
 				978353211BAB8CAC00EF93AF /* AppDelegate.swift in Sources */,
 				978353581BACC77A00EF93AF /* TermsViewController.swift in Sources */,
+				9783535A1BACCBD200EF93AF /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +516,7 @@
 				978353471BAB8CAD00EF93AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		978353481BAB8CAD00EF93AF /* Build configuration list for PBXNativeTarget "DropboxHomeworkTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				9783534A1BAB8CAD00EF93AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9783534B1BAB8CAD00EF93AF /* Build configuration list for PBXNativeTarget "DropboxHomeworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				9783534D1BAB8CAD00EF93AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
