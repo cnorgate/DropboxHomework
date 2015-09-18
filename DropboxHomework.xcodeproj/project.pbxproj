@@ -14,6 +14,10 @@
 		9783532B1BAB8CAC00EF93AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 978353291BAB8CAC00EF93AF /* LaunchScreen.storyboard */; };
 		978353361BAB8CAC00EF93AF /* DropboxHomeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978353351BAB8CAC00EF93AF /* DropboxHomeworkTests.swift */; };
 		978353411BAB8CAD00EF93AF /* DropboxHomeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978353401BAB8CAD00EF93AF /* DropboxHomeworkUITests.swift */; };
+		9783534F1BAB979100EF93AF /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9783534E1BAB979100EF93AF /* CreateAccountRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		978353521BAB97E600EF93AF /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978353511BAB97E600EF93AF /* SignInRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		978353541BAB983600EF93AF /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978353531BAB983600EF93AF /* CreateAccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		978353561BAB984500EF93AF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978353551BAB984500EF93AF /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		9783533C1BAB8CAC00EF93AF /* DropboxHomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxHomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		978353401BAB8CAD00EF93AF /* DropboxHomeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxHomeworkUITests.swift; sourceTree = "<group>"; };
 		978353421BAB8CAD00EF93AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9783534E1BAB979100EF93AF /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		978353511BAB97E600EF93AF /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		978353531BAB983600EF93AF /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		978353551BAB984500EF93AF /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		9783531F1BAB8CAC00EF93AF /* DropboxHomework */ = {
 			isa = PBXGroup;
 			children = (
+				978353501BAB979C00EF93AF /* View Controllers */,
 				978353201BAB8CAC00EF93AF /* AppDelegate.swift */,
 				978353221BAB8CAC00EF93AF /* ViewController.swift */,
 				978353241BAB8CAC00EF93AF /* Main.storyboard */,
@@ -123,6 +132,17 @@
 				978353421BAB8CAD00EF93AF /* Info.plist */,
 			);
 			path = DropboxHomeworkUITests;
+			sourceTree = "<group>";
+		};
+		978353501BAB979C00EF93AF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				978353511BAB97E600EF93AF /* SignInRootViewController.swift */,
+				978353551BAB984500EF93AF /* SignInViewController.swift */,
+				9783534E1BAB979100EF93AF /* CreateAccountRootViewController.swift */,
+				978353531BAB983600EF93AF /* CreateAccountViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				978353541BAB983600EF93AF /* CreateAccountViewController.swift in Sources */,
+				978353521BAB97E600EF93AF /* SignInRootViewController.swift in Sources */,
+				978353561BAB984500EF93AF /* SignInViewController.swift in Sources */,
+				9783534F1BAB979100EF93AF /* CreateAccountRootViewController.swift in Sources */,
 				978353231BAB8CAC00EF93AF /* ViewController.swift in Sources */,
 				978353211BAB8CAC00EF93AF /* AppDelegate.swift in Sources */,
 			);
