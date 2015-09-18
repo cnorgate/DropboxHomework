@@ -112,14 +112,14 @@
                                 <rect key="frame" x="0.0" y="425" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="1Hb-xj-EQj" kind="modal" identifier="signInSeque" id="0bK-lp-06f"/>
+                                    <segue destination="1Hb-xj-EQj" kind="push" identifier="signInSeque" id="0bK-lp-06f"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2nC-8H-SVk">
                                 <rect key="frame" x="0.0" y="469" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="lOV-Dj-TA7" kind="modal" identifier="createAccountSegue" id="L6c-2T-xZ2"/>
+                                    <segue destination="lOV-Dj-TA7" kind="push" identifier="createAccountSegue" id="L6c-2T-xZ2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -147,14 +147,14 @@
                                 <rect key="frame" x="0.0" y="468" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="lOV-Dj-TA7" kind="modal" identifier="createAccountSegue" id="Gtm-4g-oqf"/>
+                                    <segue destination="lOV-Dj-TA7" kind="push" identifier="createAccountSegue" id="Gtm-4g-oqf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lHx-Ju-Od6">
                                 <rect key="frame" x="0.0" y="425" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="1Hb-xj-EQj" kind="modal" identifier="signInSegue" id="LjO-YB-3P8"/>
+                                    <segue destination="1Hb-xj-EQj" kind="push" identifier="signInSegue" id="LjO-YB-3P8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -236,9 +236,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nzT-j4-cVc">
+                                <rect key="frame" x="9" y="26" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="welcomeClick:" destination="1Hb-xj-EQj" eventType="touchUpInside" id="2Xz-Vr-ekc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="DEx-A3-DGm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fy7-dw-PWa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -256,9 +264,18 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vpc-6L-AVB">
+                                <rect key="frame" x="6" y="27" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="welcomeClick:" destination="lOV-Dj-TA7" eventType="touchUpInside" id="USL-Qm-76k"/>
+                                    <action selector="welcomeClick:" destination="1Hb-xj-EQj" eventType="touchUpInside" id="qmG-lw-Sz8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="HkQ-XZ-6Ap"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cYp-5a-ixb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
