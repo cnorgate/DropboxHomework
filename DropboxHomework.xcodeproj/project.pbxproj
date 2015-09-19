@@ -20,6 +20,7 @@
 		978353561BAB984500EF93AF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978353551BAB984500EF93AF /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		978353581BACC77A00EF93AF /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978353571BACC77A00EF93AF /* TermsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		9783535A1BACCBD200EF93AF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978353591BACCBD200EF93AF /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9783535C1BACD63000EF93AF /* TroubleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9783535B1BACD63000EF93AF /* TroubleViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		978353551BAB984500EF93AF /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		978353571BACC77A00EF93AF /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		978353591BACCBD200EF93AF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9783535B1BACD63000EF93AF /* TroubleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TroubleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				9783534E1BAB979100EF93AF /* CreateAccountRootViewController.swift */,
 				978353531BAB983600EF93AF /* CreateAccountViewController.swift */,
 				978353591BACCBD200EF93AF /* SettingsViewController.swift */,
+				9783535B1BACD63000EF93AF /* TroubleViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				978353231BAB8CAC00EF93AF /* ViewController.swift in Sources */,
 				978353211BAB8CAC00EF93AF /* AppDelegate.swift in Sources */,
 				978353581BACC77A00EF93AF /* TermsViewController.swift in Sources */,
+				9783535C1BACD63000EF93AF /* TroubleViewController.swift in Sources */,
 				9783535A1BACCBD200EF93AF /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
